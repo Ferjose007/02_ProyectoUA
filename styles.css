@@ -1,0 +1,101 @@
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para las tarjetas de noticias */
+.news-card {
+    /* Tamaño consistente para noticias medianas */
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card img {
+    object-fit: cover;
+    /* Hace que la imagen se ajuste al marco sin distorsionar */
+    width: 100%;
+    height: 200px;
+    /* Asegura que las imágenes se ajusten a un tamaño fijo */
+}
+
+.news-card .card-body {
+    padding: 15px;
+}
+
+.news-card-large {
+    height: 450px;
+    /* Tarjeta grande */
+}
+
+.news-card-large img {
+    height: 300px;
+    /* Imágenes grandes */
+}
+
+/* Asegurarse de que los enlaces dentro de las noticias mantengan el color blanco */
+a {
+    color: white;
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+}
+
+a:hover {
+    color: white;
+    /* Mantiene el color blanco incluso cuando se pasa el ratón */
+}
+
+/* Estilos de las tarjetas de noticias */
+
+.news-card {
+    background-color: #333;
+    /* Fondo oscuro para las tarjetas */
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Un poco más de sombra para destacar las tarjetas */
+}
+
+.news-card .card-body {
+    color: #fff;
+    /* Asegura que el texto de la tarjeta sea blanco */
+}
+
+.news-card .card-title {
+    color: #fff;
+    /* Título en blanco */
+}
+
+.news-card .card-text {
+    color: #fff;
+    /* Texto del resumen en blanco */
+}
+
+/* Aseguramos que el contenedor del div esté centrado verticalmente */
+.row {
+    display: flex;
+    align-items: center; /* Centra todos los elementos dentro de la fila verticalmente */
+}
+
+/* Especificamos el comportamiento para el div que contiene la imagen */
+#politica_01 {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente dentro del div */
+    align-items: center; /* Centra la imagen verticalmente dentro del div */
+    height: 100%; /* Asegura que el div ocupe el 100% de la altura del contenedor */
+}
+
+/* Aseguramos que la imagen se ajuste bien dentro del div */
+#politica_01 img {
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del div */
+}
+
+
+
+
