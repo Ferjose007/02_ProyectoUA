@@ -13,13 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <!-- Cabecera -->
-    <?php require '../../menu.php' ?>
+    <?php require 'menu.php' ?>
 
     <!-- Sección Hero -->
     <section class="hero bg-light text-dark text-center p-5">
@@ -33,9 +33,9 @@
         <!-- Fila de Noticias (3 Medianas) -->
         <div class="row mb-4">
             <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <a href="menu/politica.php" class="text-decoration-none">
+                <a href="mvc/vista/menu/politica.php" class="text-decoration-none">
                     <div class="card news-card">
-                        <img src="../../img/portada/Imagen_noticia_politica.png" class="card-img-top" alt="Noticia 1">
+                        <img src="img/portada/Imagen_noticia_politica.png" class="card-img-top" alt="Noticia 1">
                         <div class="card-body">
                             <h5 class="card-title">POLÍTICA</h5>
                             <p class="card-text">El adiós a un legado controversial</p>
@@ -44,9 +44,9 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <a href="menu/internacional.php?slide=3" class="text-decoration-none">
+                <a href="mvc/vista/menu/internacional.php?slide=3" class="text-decoration-none">
                     <div class="card news-card">
-                        <img src="../../img/portada/Imagen_noticiainternacional_01.png" class="card-img-top" alt="Noticia 2">
+                        <img src="img/portada/Imagen_noticiainternacional_01.png" class="card-img-top" alt="Noticia 2">
                         <div class="card-body">
                             <h5 class="card-title">INTERNACIONAL</h5>
                             <p class="card-text">Operativos de control en la frontera con bolivia: Seguridad y control migratorio en desaguardo</p>
@@ -55,9 +55,9 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <a href="menu/sociedad.php" class="text-decoration-none">
+                <a href="mvc/vista/menu/sociedad.php" class="text-decoration-none">
                     <div class="card news-card">
-                        <img src="../../img/portada/Imagen_sociedad.png" class="card-img-top" alt="Noticia 3">
+                        <img src="img/portada/Imagen_sociedad.png" class="card-img-top" alt="Noticia 3">
                         <div class="card-body">
                             <h5 class="card-title">SOCIEDAD</h5>
                             <p class="card-text">"Nosotros no somos culpables ni responsables del pasado, pero sí de nuestro presente y futuro"</p>
@@ -70,9 +70,9 @@
         <!-- Fila de Noticias (1 Grande) -->
         <div class="row mb-4">
             <div class="col-12">
-                <a href="menu/internacional.php?slide=1" class="text-decoration-none">
+                <a href="mvc/vista/menu/internacional.php?slide=1" class="text-decoration-none">
                     <div class="card news-card news-card-large">
-                        <img src="../../img/portada/Imagen_noticiainternacional_02.png" class="card-img-top" alt="Noticia 4">
+                        <img src="img/portada/Imagen_noticiainternacional_02.png" class="card-img-top" alt="Noticia 4">
                         <div class="card-body">
                             <h5 class="card-title">INTERNACIONAL</h5>
                             <p class="card-text">
@@ -89,9 +89,9 @@
         <!-- Fila de Noticias (3 Medianas) -->
         <div class="row mb-4">
             <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <a href="menu/policial.php" class="text-decoration-none">
+                <a href="mvc/vista/menu/policial.php" class="text-decoration-none">
                     <div class="card news-card">
-                        <img src="../../img/portada/Imagen_policial.png" class="card-img-top" alt="Noticia 5">
+                        <img src="img/portada/Imagen_policial.png" class="card-img-top" alt="Noticia 5">
                         <div class="card-body">
                             <h5 class="card-title">POLICIAL</h5>
                             <p class="card-text">Feminicidio en comas impacta al Perú, suboficial de policía acusado de asesinar a Sheyla Cóndor.</p>
@@ -100,9 +100,9 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <a href="menu/cultura.php" class="text-decoration-none">
+                <a href="mvc/vista/menu/cultura.php" class="text-decoration-none">
                     <div class="card news-card">
-                        <img src="../../img/portada/Imagen_cultura.png" class="card-img-top" alt="Noticia 6">
+                        <img src="img/portada/Imagen_cultura.png" class="card-img-top" alt="Noticia 6">
                         <div class="card-body">
                             <h5 class="card-title">CULTURA</h5>
                             <p class="card-text">¡Machu Picchu triunfa! Perú brilal en los World Travel Awards 2024</p>
@@ -111,9 +111,9 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <a href="menu/economia.php" class="text-decoration-none">
+                <a href="mvc/vista/menu/economia.php" class="text-decoration-none">
                     <div class="card news-card">
-                        <img src="../../img/portada/Imagen_economia.png" class="card-img-top" alt="Noticia 7">
+                        <img src="img/portada/Imagen_economia.png" class="card-img-top" alt="Noticia 7">
                         <div class="card-body">
                             <h5 class="card-title">ECONOMIA</h5>
                             <p class="card-text">La cumbre APEC en Lima - Perú 2024</p>

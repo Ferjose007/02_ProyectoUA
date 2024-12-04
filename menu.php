@@ -1,7 +1,7 @@
 <header class="bg-dark text-white p-4 shadow-sm text-center">
 
     <div class="logo">
-        <a href="/02_proyectoua/mvc/vista/index.php" class="titulo-link text-white text-decoration-none">
+        <a href="/02_proyectoua/index.php" class="titulo-link text-white text-decoration-none">
             <h1 class="fs-1 fw-bold">Dilo fuerte Autónomo</h1>
         </a>
         <p class="eslogan fs-4">Las noticias más relevantes al instante</p>
